@@ -1,6 +1,6 @@
 # cra-tpl-ts-schnauzer
 
-create-react-app 模板
+create-react-app web项目模板 ts版本
 
 This is the official TypeScript template for [Create React App](https://github.com/facebook/create-react-app).
 
