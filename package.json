@@ -1,0 +1,26 @@
+{
+  "name": "cra-tpl-ts-schnauzer",
+  "version": "1.0.2",
+  "description": "create-react-app 模板",
+  "main": "template.json",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zkzhao/cra-tpl-ts-schnauzer.git"
+  },
+  "keywords": [
+    "template"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zkzhao/cra-tpl-ts-schnauzer/issues"
+  },
+  "homepage": "https://github.com/zkzhao/cra-tpl-ts-schnauzer#readme",
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
