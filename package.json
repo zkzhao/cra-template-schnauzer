@@ -1,6 +1,6 @@
 {
   "name": "cra-template-schnauzer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create-react-app 模板",
   "main": "template.json",
   "scripts": {
@@ -22,5 +22,8 @@
   "files": [
     "template",
     "template.json"
-  ]
+  ],
+  "devDependencies": {
+    "pont-engine": "^1.0.3"
+  }
 }
