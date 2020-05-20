@@ -6,7 +6,7 @@
       "dev": "cross-env REACT_APP_CONFIG_ENV=dev react-app-rewired build",
       "test": "react-scripts test",
       "eject": "react-scripts eject",
-      "lint:ts": "eslint src --ext .ts,.tsx ",
+      "lint:ts": "tsc --noEmit && eslint src --ext .ts,.tsx ",
       "lint:scss": "stylelint src/**/*.scss --fix"
     },
     "husky": {
