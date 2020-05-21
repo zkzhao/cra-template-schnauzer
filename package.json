@@ -22,8 +22,5 @@
   "files": [
     "template",
     "template.json"
-  ],
-  "devDependencies": {
-    "pont-engine": "^1.0.3"
-  }
+  ]
 }
