@@ -19,7 +19,7 @@ const devServerConfig = () => (config) => {
 module.exports = {
   webpack: override(
     // https://github.com/esetnik/customize-cra-react-refresh
-    addReactRefresh({ disableRefreshCheck: true }),
+    addReactRefresh(),
     // https://github.com/facebook/create-react-app/issues/5118#issuecomment-464368371
     addWebpackResolve({
       alias: {

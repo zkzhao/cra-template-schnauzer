@@ -33,7 +33,7 @@
       "babel-plugin-import": "^1.13.0",
       "cross-env": "^7.0.0",
       "customize-cra": "^0.9.1",
-      "customize-cra-react-refresh": "^1.0.1",
+      "customize-cra-react-refresh": "^1.1.0",
       "connected-react-router": "^6.7.0",
       "dva-core": "^2.0.2",
       "eslint-config-prettier": "^6.10.0",
