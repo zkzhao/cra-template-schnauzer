@@ -9,9 +9,7 @@ import { omitRouteRenderProperties } from '../../router/utils'
 import { IDispatch } from '@/models/connect'
 import styles from './style.module.scss'
 import Images from '@/assets/images'
-import 'antd/dist/antd.css'
 const { Header, Sider, Content } = Layout
-
 interface IProps extends IDispatch {
   routes: IRouteConfig[]
   loading?: boolean

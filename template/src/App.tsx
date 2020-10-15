@@ -6,6 +6,7 @@ import models from './models'
 import { ConfigProvider } from 'antd'
 import zhCN from 'antd/es/locale/zh_CN'
 import 'moment/locale/zh-cn'
+import 'antd/dist/antd.css'
 
 const createHistory = require('history').createBrowserHistory
 export const history = createHistory()
