@@ -1,6 +1,4 @@
-const path = require('path')
-const { override, addWebpackResolve, fixBabelImports, overrideDevServer, useBabelRc } = require('customize-cra')
-const { addReactRefresh } = require('customize-cra-react-refresh')
+const { override, fixBabelImports, overrideDevServer, useBabelRc } = require('customize-cra')
 const devServerConfig = () => (config) => {
   return {
     ...config,
@@ -18,14 +16,6 @@ const devServerConfig = () => (config) => {
 
 module.exports = {
   webpack: override(
-    // https://github.com/esetnik/customize-cra-react-refresh
-    addReactRefresh(),
-    // https://github.com/facebook/create-react-app/issues/5118#issuecomment-464368371
-    addWebpackResolve({
-      alias: {
-        '@': path.resolve(__dirname, 'src'),
-      },
-    }),
     useBabelRc(),
     fixBabelImports('import', {
       libraryName: 'antd',

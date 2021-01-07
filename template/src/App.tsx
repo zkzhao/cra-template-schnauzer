@@ -1,5 +1,6 @@
 import React from 'react'
 import Router from './router'
+import { createBrowserHistory } from 'history'
 import { connectRouter, routerMiddleware, ConnectedRouter } from 'connected-react-router'
 import dva from './utils/dva'
 import models from './models'
@@ -8,8 +9,7 @@ import zhCN from 'antd/es/locale/zh_CN'
 import 'moment/locale/zh-cn'
 import 'antd/dist/antd.css'
 
-const createHistory = require('history').createBrowserHistory
-export const history = createHistory()
+export const history = createBrowserHistory()
 export const routerReducer = connectRouter(history)
 export const routerMiddlewareForDispatch = routerMiddleware(history)
 
