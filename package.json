@@ -1,6 +1,6 @@
 {
   "name": "cra-template-schnauzer",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "create-react-app 模板",
   "main": "template.json",
   "scripts": {
